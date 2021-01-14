@@ -1,0 +1,65 @@
+html{
+}
+
+body{
+  font-family: Poppins-Regular;
+   font-size: 15px;
+}
+
+
+h1{
+  text-align: center;
+}
+
+table{
+  background-color: tomato;
+  border-radius:10px;
+  border: 2px outset black;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 0 1em;
+}
+
+input{
+  width:75%;
+}
+
+select{
+  width:75%;
+}
+
+label{
+  padding-left:10px; 
+}
+
+
+.button{
+  font-family: Poppins-Regular;
+  width:50%;
+  height:200px;
+  font-size: 15px;
+  font-size: auto;
+  text-align: center;
+  align-content: center;
+}
+
+.container{
+  width: 100%;  
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: lighten;
+  position: relative;
+  z-index: 1;  
+}
+
+.result{
+  max-width: 500px;
+  margin: auto;
+}
